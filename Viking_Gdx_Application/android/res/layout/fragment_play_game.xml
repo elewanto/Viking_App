@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/menu"
+        android:paddingBottom="24dp"
+        android:paddingTop="6dp"
+        android:textSize="36sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_weight="0.20"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_text_view"
+        android:paddingTop="24dp"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/play_button"
+        android:text="Play Game"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"/>
+
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/fb_share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_login_button"
+        android:text="Back To Login"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/database_manager_button"
+        android:text="Database Manager"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accelerometer_button"
+        android:text="Accelerometer Check"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"/>
+
+</LinearLayout>

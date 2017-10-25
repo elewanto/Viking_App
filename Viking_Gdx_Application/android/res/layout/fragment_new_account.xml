@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username_text"
+        android:paddingTop="24dp"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/account_username_text_edit"
+        android:hint="@string/username_hint"
+        android:paddingTop="24dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password_text"
+        android:paddingTop="24dp"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/account_password_text_edit"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_password_text"
+        android:paddingTop="24dp"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/account_confirm_password_text_edit"
+        android:hint="@string/confirm_password_hint"
+        android:inputType="textPassword"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_account_button"
+        android:text="@string/create_account_button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_to_login_button"
+        android:text="@string/back_to_login_button"/>
+
+
+</LinearLayout>

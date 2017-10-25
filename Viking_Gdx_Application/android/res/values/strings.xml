@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Viking</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="confirm_password_text">Confirm Password</string>
+
+    <string name="username_hint">Enter your username.</string>
+    <string name="password_hint">Enter your password.</string>
+    <string name="confirm_password_hint">Confirm your password.</string>
+    <string name="login_button">Login</string>
+    <string name="new_account_button">New Account</string>
+    <string name="main_menu_button">Main Menu</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="back_to_login_button">Back To Login</string>
+    <string name="successful_login_toast">User logged in!</string>
+    <string name="successful_facebook_login_toast">User logged in with Facebook!</string>
+    <string name="invalid_login_toast">Username or password is incorrect</string>
+    <string name="successful_account_create_toast">Account created!</string>
+    <string name="facebook_account_create_toast">Account created with Facebook login!</string>
+    <string name="invalid_account_create_toast">Error: Account not created :(</string>
+    <string name="invalid_account_duplicate_username_toast">Error: Username already exists.</string>
+
+    <string name="facebook_app_id">102176096926847</string>
+    <string name="fb_login_protocol_scheme">fb102176096926847</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu">Viking Rush</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="account_manage_title">Account</string>
+    <string name="start_game_dialog_beginning">The object of the game is to help %1$s complete each level by
+    collecting coins while avoiding obstacles</string>
+    <string name="moving_instructions">Tap the left side of the screen to move %1$s up or down</string>
+    <string name="level_guide_instructions">Points to complete each level\nCrab Level: 300\nRock Level: 150\nPirate 
+    Level: 300\nOnce the point totals are reached, you must shake the device up and down to complete the level\n
+    The level will restart if point total is not reached or if shaking is not done quick enough</string>
+    <string name="coin_guide">Different coins are worth different amounts\nGold: 100\nSilver: 50\nBronze:25\nIf you
+     hit an obstacle you lose 10 points</string>
+    <string name="start_button">Start</string>
+    <string name="game_music_setting">Game Music</string>
+    <string name="skip_dialog_setting">Skip level dialog</string>
+    <string name="difficulty_setting">Difficulty</string>
+    <string name="first_name_title">First Name</string>
+    <string name="character_name_title">Character Name</string>
+    <string-array name="difficulty_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+</resources>
